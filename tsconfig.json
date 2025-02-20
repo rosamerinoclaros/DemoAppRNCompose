@@ -1,0 +1,20 @@
+{
+    /* Search the config file for the following line and uncomment it. */
+    // "allowSyntheticDefaultImports": true,  /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
+    "include": [
+        "packages/**/src/**/*",
+        "modules.d.ts"
+    ],
+    "compilerOptions": {
+        "target": "ES2015",
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "jsx": "react-jsx",
+        "lib": [
+            "es2019",
+            "dom"
+        ]
+    }
+}
