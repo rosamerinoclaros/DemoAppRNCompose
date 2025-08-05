@@ -1,3 +1,6 @@
+This project highlights an incompatibility between React Native and Jetpack Compose. 
+Here is the issue: https://issuetracker.google.com/issues/379170475?pli=1
+
 # React Native Project Setup Guide
 
 ## Prerequisites
